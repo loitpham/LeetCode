@@ -1,4 +1,4 @@
-package L2_Medium.Q_0721_Accounts_Merge;
+package L2_Medium.Accounts_Merge;
 
 import java.util.*;
 
@@ -7,7 +7,7 @@ import java.util.*;
  * Description:
  * https://leetcode.com/problems/accounts-merge/
  **/
-public class Q_0721_Accounts_Merge {
+public class Accounts_Merge {
     static class UnionFind {
         int[] parent;
         int[] size; // only sizes of root elements are
